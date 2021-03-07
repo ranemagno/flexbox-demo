@@ -1,0 +1,35 @@
+body {
+  background-color: #fafafa;
+  margin: 5vh 0 0 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav  {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 5vh;
+  background-color: #fafafa;
+}
+.row {
+  display: flex;
+}
+.sidebar {
+  height: 95vh;
+  width: 20%;
+  background-color: rgb(228, 228, 228);
+}
+.products-section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(180, 255, 222);
+  height: 95vh;
+  width: 80%;
+}
+.products-section > div {
+  border: 2px solid #333;
+  margin: .8% 0 0 .8%;
+  background-color: #fafafa;
+  width: 32%;
+  padding-bottom: 32%;
+}
