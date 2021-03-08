@@ -17,7 +17,7 @@ body {
   display: flex;
 }
 .sidebar {
-  height: 95vh;
+  height: 100vh;
   width: 20%;
   background-color: rgb(228, 228, 228);
 }
@@ -29,13 +29,28 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 100%;
   width: 80%;
 }
-.products-section > div {
+.products-section div {
   /* border: 2px solid #333; */
-  margin: .85% 0 0 .85%;
-  width: 330px;
-  height: 330px;
+  flex: 1 330px 330px;
+  margin: .85% 0 .85% .85%;
   background-color: #fafafa;
+
+  /* glassmorphism */
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5.0px );
+  -webkit-backdrop-filter: blur( 5.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+@media only screen and (min-width: 1920px) {
+  .products-section div {
+    width: 492px;
+    height: 492px;
+  }
 }

@@ -10,9 +10,9 @@
   flex-wrap: wrap;
 }
 #nav > div {
+  background-color: #f1f1f1;
   width: 10vw;
   height: 5vh;
-  background-color: #f1f1f1;
   margin: 0;
   padding: 0;
   flex-grow: 1;
@@ -29,19 +29,19 @@ i {
   margin-top: 3%;
 }
 input {
-  margin-left: 2%;
-  margin-top: 3.5%;
   width: 15vw;
   height: 2vh;
+  margin-left: 2%;
+  margin-top: 3.5%;
 }
 .flex-container > div {
+  background-color: #f1f1f1;
+  border: 2px solid #333;
   height: 20vh;
   width: 12vw;
-  background-color: #f1f1f1;
   margin: .5%;
   padding: .5%;
   font-size: 30px;
-  border: 2px solid #333;
   align-content: space-around;
 }
 #middle {
@@ -57,4 +57,59 @@ input {
 }
 .section-4 > div {
   flex-grow: 1;
+}
+
+
+
+
+/* Tutorial 2 - 9 March BEGINS             ------------------------------*/
+
+
+.container-b {
+  margin: 0 0 2% 0;
+  display: flex;
+  height: 1000px;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.container-b div {
+  border: 2px solid #333;
+  width: 14%;
+  background-color: #fafafa;
+}
+
+.item-1 {
+  height: 70%;
+}
+
+.item-2 {
+  height: 45%;
+}
+
+.item-3 {
+  height: 60%;
+}
+
+.item-4 {
+  height: 30%;
+  align-self: center;
+}
+
+.item-5 {
+  height: 50%;
+}
+
+.container-c {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+}
+.item-center {
+  width: 20%;
+  height: 20%;
+  background-color: #f1f1f1;
 }
